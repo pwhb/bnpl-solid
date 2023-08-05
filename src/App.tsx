@@ -1,7 +1,7 @@
 import { For, Match, Switch, createResource, createSignal } from 'solid-js';
 import './App.css';
-import "solid-slider/slider.css";
 // import json from "./data.json";
+
 async function fetchProducts(query: string)
 {
   // return json;
