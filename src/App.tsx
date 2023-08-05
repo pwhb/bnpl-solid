@@ -102,6 +102,8 @@ function App()
                 }
               </For>
             </div>
+
+            <button class='btn mt-5' onClick={() => setModel("")}>back</button>
           </div>
         </Match >
         <Match when={data()}>
